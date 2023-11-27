@@ -1,0 +1,44 @@
+body {
+    background-image: url(https://static.clubs.nfl.com/image/private/t_new_photo_album/patriots/jyw8gjvnxz4yfkhs9nx2.jpg);
+    background-size: cover;
+}
+
+.patScore {
+    background: rgba(0, 0, 154, 0.799);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.patNumber {
+    background-color: red;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.patButton {
+    background-color: white;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.eagleScore {
+    background: rgba(0, 128, 0, 0.799);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.eagleNumber {
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.eagleButton {
+    background-color: white;
+    font-weight: bold;
+    margin: 5px;
+}
