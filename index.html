@@ -8,11 +8,25 @@
     <title>Document</title>
 </head>
 <body class="container-fluid">
-    <section class="text-center row d-flex flex-column align-items-center">
+    <section class="text-center row d-flex flex-column align-items-center mt-3">
         <h1 class="col-4 border rounded-4 bg-dark text-light p-3">Superbowl</h1>
         <h3 class="p-2 bg-dark border rounded-4 text-light col-2">First to 30!</h3>
     </section>
-    <section class="row justify-content-evenly mt-5">
+    <section class="row mt-5 justify-content-evenly">
+        <div class="col-2 d-flex text-light patGames rounded-2">
+            <h4 class="me-1">Wins:</h4>
+            <h4 id="pat-games-won">0</h4>
+            <h4 class="ms-4 me-1">Losses:</h4>
+            <h4 id="pat-games-lost">0</h4>
+        </div>
+        <div class="col-2 d-flex text-light eagleGame text-center rounded-2">
+            <h4 class="me-1">Wins:</h4>
+            <h4 id="eagles-games-won">0</h4>
+            <h4 class="ms-4 me-1">Losses:</h4>
+            <h4 id="eagles-games-lost">0</h4>
+        </div>
+    </section>
+    <section class="row justify-content-evenly mt-1">
         <div class="d-flex flex-column align-items-center col-2 mt-2 patScore">
             <h2>Patriots</h2>
             <div class="patNumber text-center">

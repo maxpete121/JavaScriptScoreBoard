@@ -1,6 +1,10 @@
 body {
-    background-image: url(https://static.clubs.nfl.com/image/private/t_new_photo_album/patriots/jyw8gjvnxz4yfkhs9nx2.jpg);
+    background-image: url(https://png.pngtree.com/background/20230524/original/pngtree-an-empty-american-football-stadium-with-lights-picture-image_2712003.jpg);
     background-size: cover;
+}
+
+.patGames {
+    background-color: rgba(0, 0, 130, 0.788);
 }
 
 .patScore {
@@ -21,6 +25,10 @@ body {
     background-color: white;
     font-weight: bold;
     margin: 10px;
+}
+
+.eagleGame {
+    background-color: green;
 }
 
 .eagleScore {

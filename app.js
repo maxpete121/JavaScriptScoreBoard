@@ -2,6 +2,7 @@ let home = 0
 let away = 0
 let point = 1
 let reset = 0
+let patriotWins = 0
 
 function homeScore(){
     let score = document.getElementById("home")
@@ -30,6 +31,9 @@ function removePat() {
 function patWin() {
     if(home >= 30) {
         document.getElementById("pats-win").style.display = ('block')
+        patriotWins += 1
+        let pGameWins = document.getElementById("pat-games-won")
+        pGameWins.innerText = (patriotWins + 1)
     }
 }
 
