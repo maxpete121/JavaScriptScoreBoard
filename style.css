@@ -13,14 +13,14 @@ body {
 .patNumber {
     background-color: red;
     padding: 10px;
-    margin: 5px;
+    margin: 10px;
     border-radius: 5px;
 }
 
 .patButton {
     background-color: white;
     font-weight: bold;
-    margin: 5px;
+    margin: 10px;
 }
 
 .eagleScore {
@@ -33,12 +33,12 @@ body {
 .eagleNumber {
     background-color: white;
     padding: 10px;
-    margin: 5px;
+    margin: 10px;
     border-radius: 5px;
 }
 
 .eagleButton {
     background-color: white;
     font-weight: bold;
-    margin: 5px;
+    margin: 10px;
 }

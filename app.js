@@ -6,13 +6,25 @@ let reset = 0
 function homeScore(){
     let score = document.getElementById("home")
     score.innerText = (home += 3)
+    home + 3
+    console.log(home)
     patWin()
 }
 
 function homePoint(){
     let scoreTwo = document.getElementById("home")
     scoreTwo.innerText = (home += 7)
+    home + 7
     patWin()
+}
+
+function removePat() {
+    if(home > 0) {
+        home -= 1
+        let pScore = document.getElementById("home")
+        pScore.innerText = (home)
+        console.log(home)
+    }
 }
 
 function patWin() {
@@ -33,6 +45,16 @@ function awayPoint() {
     eagleWin()
 }
 
+function removeEagle() {
+    if(away > 0) {
+        away -= 1
+        let eScore = document.getElementById("away")
+        eScore.innerText = away
+        console.log(away)
+        
+    }
+}
+
 function eagleWin() {
     if(away >= 30) {
         document.getElementById("eagles-win").style.display = ('block')
@@ -49,5 +71,7 @@ function restartGame() {
     let eScore = document.getElementById("away")
     eScore.innerText = 0
     away = 0
+
+    window.alert ("Game restarted")
 }
 
